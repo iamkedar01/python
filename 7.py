@@ -8,14 +8,6 @@
   6) Dictionary Characteristics
 
 '''
-
-IPL_teams = {
-    "RCB": ["Virat Kohli", "ABD","Faf du Plessis", "Glenn Maxwell"],
-    "CSK": ["MS Dhoni", "Ravindra Jadeja", "Deepak Chahar"],
-    "MI": ["Rohit Sharma", "Ishan Kishan", "Jasprit Bumrah"],
-    "DC": ["David Warner", "Prithvi Shaw", "Axar Patel"]
-}
-
 karnataka_food = {
     "Bengaluru":"Dosa" , "Mysuru":"Mysore Pak" , "Mangaluru":"Fish dishs" , "Hubali":"Roti" , "Mandya":"chapati"
 }
@@ -50,6 +42,13 @@ print(karnataka_food.values())
 print(karnataka_food.items())
 
 # a small question like using the list in dictionary 
+
+IPL_teams = {
+    "RCB": ["Virat Kohli", "ABD","Faf du Plessis", "Glenn Maxwell"],
+    "CSK": ["MS Dhoni", "Ravindra Jadeja", "Deepak Chahar"],
+    "MI": ["Rohit Sharma", "Ishan Kishan", "Jasprit Bumrah"],
+    "DC": ["David Warner", "Prithvi Shaw", "Axar Patel"]
+}
 
 team_name = input("Enter the IPL team name(only short fron in capital letter)----> ")
 if team_name in IPL_teams:
